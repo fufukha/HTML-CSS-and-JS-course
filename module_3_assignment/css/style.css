@@ -12,25 +12,17 @@ body {
 }
 
  h1, h2 {
- 	font-size: 175%;
+ 	font-size: 2em;
  }
-
-h2 {
-	text-align: center;	
-}
 
 section {
 	border: 2px solid black;
-	padding-top: 0;
-	padding-bottom: 15px;
-	margin: 20px;
+	margin-bottom: 20px;
 	background-color: #ECEFF1;
-	height: 200px;
-	overflow: hidden
 }
 
 h3 {
-	font-size: 125%;
+	font-size: 1.8em;
 	border-left: 2px solid black;
 	border-bottom: 2px solid black;
 	text-align: center;
@@ -49,6 +41,7 @@ section p {
 	margin-left: 15px;
 	margin-right: 15px;
 	margin: 15px 15px;
+	font-size: 1.3em;
 }
 
 
@@ -94,4 +87,20 @@ Header
 
 #nav-list a:hover {
 	background: #e7e7e7;
+}
+
+
+/*================
+Page
+==================*/
+h2 {
+	margin-bottom: 30px;
+}
+
+/*================
+Grid
+==================*/
+
+.page-container {
+    height: 1000px;
 }
