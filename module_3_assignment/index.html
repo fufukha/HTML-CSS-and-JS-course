@@ -2,20 +2,66 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Module 2 Assignment</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--Custom Style -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Module 3 Assignment</title>
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
 <body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Food, LLC</h1></a>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					 <ul id="nav-list" class="nav navbar-nav navbar-right text-center visible-xs">
+							<li>
+								<a href="index.html"> Chicken</a>
+							</li>
+							<li role="separator" class="divider"></li>
+							<li>
+								<a href="index.html"> Beef</a>
+							</li>
+							<li role="separator" class="divider"></li>
+							<li>
+								<a href="index.html"> Sushi</a>
+							</li>
+						</ul><!-- #nav-list -->
+				</div><!-- .collapse .navbar-collapse -->
+			</div><!-- .container -->
+		</nav><!-- #header-nav -->
+	</header>
+
 	<div class=container>
-		<h1>Our Menu</h1>
+		<h2>Our Menu</h2>
 	<!--Chicken-->
 		<div class="col-md-6 col-lg-4">
 			<section id="section1">
 				<article>
-					<h2>Chicken</h2>
+					<h3>Chicken</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum, erat non convallis ornare, sem ante pharetra lacus, et iaculis lectus dui quis lacus. Vestibulum ut massa in eros faucibus imperdiet. Duis imperdiet sagittis lacinia. Nam fringilla faucibus varius. Praesent accumsan magna sit amet orci tincidunt porttitor. Morbi nec nibh ut sapien volutpat dapibus. Donec at dapibus dolor. Praesent a laoreet arcu. Nam a tortor fermentum, commodo urna nec, mollis turpis. Donec egestas nulla vitae urna vestibulum tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam condimentum consequat</p>
-			</article>		
+			</article>      
 			</section>
 		</div>
 		
@@ -23,21 +69,21 @@
 		<div class="col-md-6 col-lg-4">
 			<section id="section2">
 				<article>
-					<h2>Beef</h2>
+					<h3>Beef</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum, erat non convallis ornare, sem ante pharetra lacus, et iaculis lectus dui quis lacus. Vestibulum ut massa in eros faucibus imperdiet. Duis imperdiet sagittis lacinia. Nam fringilla faucibus varius. Praesent accumsan magna sit amet orci tincidunt porttitor. Morbi nec nibh ut sapien volutpat dapibus. Donec at dapibus dolor. Praesent a laoreet arcu. Nam a tortor fermentum, commodo urna nec, mollis turpis. Donec egestas nulla vitae urna vestibulum tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam condimentum consequat</p>
-				</article>		
+				</article>
 			</section>
-		</div>		
+		</div>
 
 		<!--Sushi-->
-		<div class="col-md-12 col-lg-">
+		<div class="col-md-12 col-lg-4">
 			<section id="section3">
 			<article>
-				<h2>Sushi</h2>
+				<h3>Sushi</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum, erat non convallis ornare, sem ante pharetra lacus, et iaculis lectus dui quis lacus. Vestibulum ut massa in eros faucibus imperdiet. Duis imperdiet sagittis lacinia. Nam fringilla faucibus varius. Praesent accumsan magna sit amet orci tincidunt porttitor. Morbi nec nibh ut sapien volutpat dapibus. Donec at dapibus dolor. Praesent a laoreet arcu. Nam a tortor fermentum, commodo urna nec, mollis turpis. Donec egestas nulla vitae urna vestibulum tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam condimentum consequat</p>
-			</article>		
+			</article>      
 		</section>
-		</div>		
-	</div>	
+		</div>      
+	</div>  
 </body>
 </html>
